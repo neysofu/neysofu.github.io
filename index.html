@@ -1,81 +1,141 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Filippo Costa @neysofu</title>
-		<link rel="apple-touch-icon" href="{{ site.baseurl }}{{ site.compass.logo }}"/>
-		<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}{{ site.baseurl }}/favicon.ico" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4=" crossorigin="anonymous" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
-		<meta name="author" content="Filippo Costa" />
-		<meta name="description" content="My personal webpage" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- Open Graph tags -->
-		<meta property="og:type" content="website"/>
-		<meta property="og:title" content="Filippo Costa's personal webpage"/>
-		<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
-		<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}"/>
-		<meta property="og:description" content="{{ site.compass.description }}"/>
-		<meta property="og:site_name" content="{{ site.compass.tagline }}">
-		<!-- Twitter Card tags -->
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="{{ site.twitter.site }}">
-		<meta name="twitter:creator" content="{{ site.twitter.creator }}">
-		<meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-		<meta name="twitter:description" content="{{ site.compass.description }}">
-		<meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}">
-	</head>
-	<body>
-		<section class="section">
-			<div class="columns">
-				<div class="column">
-					<section class="section has-text-right">
-						<h1 class="title">
-							Filippo Costa
-						</h1>
-						<h2 class="subtitle">
-							CS student & computer programmer
-						</h2>
-					</section>
-				</div>
-				<div class="column">
-					<section class="section">
-						<p>
-							<strong>About me.</strong>
-							Hi, I'm Filippo Costa (aka neysofu online). I study
-							CS as UniPi in Pisa, Italy.
-						</p>
-						<p>
-							<strong>Contacts.</strong>
-							You can find me on
-							<a href="https://twitter.com/neysofu">Twitter</a>,
-							<a href="https://github.com/neysofu">GitHub</a>,
-							<a href="https://www.linkedin.com/in/filippo-costa-487004138/">LinkedIn</a>,
-							<a href="https://reddit.com/u/fcosta_aka_neysofu">Reddit</a>,
-							<a href="https://lichess.org/@/neysofu">lichess</a>.
-							<br>
-							My GPG fingerprint is <span class="is-family-monospace">C52F20EF283350F692E78806ADE63D6101D97281</span>.
-						</p>
-						<p>
-							<strong>FOSS work.</strong>
-							I maintain several projects. See my GitHub profile for more info.
-						</p>
-						<p>
-							<strong>Buy me a coffee?</strong>
-							If you're using any of the software I developed for
-							free of charge, please consider donating.
-						</p>
-					</section>
-				</div>
-			</div>
-		</section>
-		<footer class="footer">
-			<div class="content has-text-centered">
-				<p>
-					<strong>EOF</strong>
-				</p>
-			</div>
-		</footer>
-	</body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filippo Costa @neysofu</title>
+    <link
+      rel="apple-touch-icon"
+      href="{{ site.baseurl }}{{ site.compass.logo }}"
+    />
+    <link
+      rel="shortcut icon"
+      sizes="16x16 24x24 32x32 48x48 64x64"
+      href="{{ site.url }}{{ site.baseurl }}/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+      integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/4a60055b8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="author" content="Filippo Costa" />
+    <meta name="description" content="My personal webpage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Open Graph tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Filippo Costa's personal webpage" />
+    <meta
+      property="og:url"
+      content="{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    />
+    <meta
+      property="og:image"
+      content="{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}"
+    />
+    <meta property="og:description" content="{{ site.compass.description }}" />
+    <meta property="og:site_name" content="{{ site.compass.tagline }}" />
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="{{ site.twitter.site }}" />
+    <meta name="twitter:creator" content="{{ site.twitter.creator }}" />
+    <meta
+      name="twitter:url"
+      content="{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    />
+    <meta name="twitter:description" content="{{ site.compass.description }}" />
+    <meta
+      name="twitter:image:src"
+      content="{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}"
+    />
+    <style>
+      body {
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body class="has-background-white-ter">
+    <section class="section">
+      <div class="columns">
+        <div class="column is-one-third">
+          <section class="section has-text-right">
+            <h1 class="title">
+              Filippo Costa
+            </h1>
+            <h2 class="subtitle">
+              CS student & computer programmer
+            </h2>
+            <span class="section icon">
+              <a href="https://twitter.com/neysofu" style="color: #1da1f2">
+                <i class="fab fa-2x fa-twitter"></i>
+              </a>
+            </span>
+            <span class="section icon">
+              <a
+                href="https://www.linkedin.com/in/filippo-costa-487004138/"
+                style="color: #0077b5"
+              >
+                <i class="fab fa-2x fa-linkedin"></i>
+              </a>
+            </span>
+            <span class="section icon">
+              <a
+                href="https://gitlab.com/neysofu"
+                style="color: #fc6d26"
+              >
+                <i class="fab fa-2x fa-gitlab"></i>
+              </a>
+            </span>
+            <span class="section icon" style="color: #333;">
+              <a
+                href="https://github.com/neysofu"
+                style="color: #333"
+              >
+              <i class="fab fa-2x fa-github"></i>
+              </a>
+            </span>
+          <section class="section has-text-centered">
+            <p>My CV:</p>
+          </section>
+        </div>
+        <div class="column is-two-thirds">
+          <section class="section">
+            <p>
+              <strong>About me.</strong>
+              Hi, I'm Filippo Costa (@neysofu online). I study CS as UniPi in
+              Pisa, Italy.
+            </p>
+            <p>
+              <strong>Contacts.</strong>
+              You can find me on
+              <a href="https://twitter.com/neysofu">Twitter</a>,
+              <a href="https://github.com/neysofu">GitHub</a>,
+              <a href="https://www.linkedin.com/in/filippo-costa-487004138/"
+                >LinkedIn</a
+              >, <a href="https://reddit.com/u/fcosta_aka_neysofu">Reddit</a>,
+              <a href="https://lichess.org/@/neysofu">lichess</a>.
+              <br />
+              My GPG fingerprint is
+              <span class="is-family-monospace"
+                >C52F20EF283350F692E78806ADE63D6101D97281</span
+              >.
+            </p>
+            <p>
+              <strong>FOSS work.</strong>
+              I maintain several projects. See my GitHub profile for more info.
+            </p>
+            <p>
+              <strong>Buy me a coffee?</strong>
+              If you're using any of the software I developed for free of
+              charge, please consider donating.
+            </p>
+          </section>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
