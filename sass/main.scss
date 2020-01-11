@@ -1,5 +1,12 @@
 @charset "utf-8";
-@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma/sass/utilities/_all";
+@import "../node_modules/bulma/sass/base/_all";
+@import "../node_modules/bulma/sass/elements/title";
+@import "../node_modules/bulma/sass/elements/container";
+@import "../node_modules/bulma/sass/elements/content";
+@import "../node_modules/bulma/sass/elements/icon";
+@import "../node_modules/bulma/sass/grid/columns";
+@import "../node_modules/bulma/sass/layout/section";
 
 html {
   height: 100%;
