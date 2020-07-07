@@ -8,16 +8,6 @@
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/neysofu/neysofu.github.io.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/neysofu/neysofu.github.io/issues"
-  },
-  "homepage": "https://github.com/neysofu/neysofu.github.io#readme",
   "devDependencies": {
     "bulma": "^0.8.0",
     "node-sass": "^4.13.0"
