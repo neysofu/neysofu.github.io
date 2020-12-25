@@ -129,6 +129,10 @@
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
+.fa-keybase:before {
+  content: "\f4f5";
+}
+
 .fa-linkedin:before {
   content: "\f08c";
 }
