@@ -1,12 +1,12 @@
 {
-  "name": "brittanychiang.com",
+  "name": "neysofu.me",
   "version": "0.0.0",
-  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
+  "description": "My personal website",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/bchiang7.github.io"
+    "url": "https://github.com/neysofu/neysofu.github.io"
   },
-  "homepage": "https://github.com/bchiang7/bchiang7.github.io",
+  "homepage": "https://github.com/neysofu/neysofu.github.io",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
@@ -17,12 +17,13 @@
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-eslint": "^6.0.0",
     "gulp-imagemin": "6.0.0",
     "gulp-sass": "^5.1.0",
-    "gulp-uglify": "3.0.2"
+    "gulp-uglify": "3.0.2",
+    "sass": "1.49.8"
   }
 }
