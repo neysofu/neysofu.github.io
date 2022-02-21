@@ -1,0 +1,42 @@
+# Site settings
+name: Filippo Costa
+title: Filippo Costa | Rust Software Engineer
+description: Software engineer, entrepreneur, and Web3 developer.
+url: https://neysofu.me
+baseurl: ''
+email: filippo@neysofu.me
+cover: https://neysofu.me/img/og.png
+logo: https://neysofu.me/img/emojis/technologist.png
+social:
+  - title: email
+    url: mailto:filippo@neysofu.me
+  - title: twitter
+    url: https://twitter.com/neysofu
+  - title: github
+    url: https://github.com/neysofu
+  - title: linkedin
+    url: https://www.linkedin.com/in/neysofu
+  - title: keybase
+    url: https://keybase.io/neysofu
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

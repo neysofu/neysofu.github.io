@@ -1,18 +1,28 @@
 {
-  "name": "neysofu.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "brittanychiang.com",
+  "version": "0.0.0",
+  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bchiang7/bchiang7.github.io"
+  },
+  "homepage": "https://github.com/bchiang7/bchiang7.github.io",
+  "main": "gulpfile.js",
   "scripts": {
-    "css-build": "node-sass --output-style=compressed --omit-source-map-url sass/main.scss css/main.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "start": "gulp serve --watch",
+    "build": "gulp build"
   },
+  "author": "Brittany Chiang",
+  "license": "ISC",
   "devDependencies": {
-    "bulma": "^0.8.0",
-    "node-sass": "^4.13.0"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.0"
+    "@nuscout/eslint-config": "^0.2.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "6.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "3.0.2"
   }
 }

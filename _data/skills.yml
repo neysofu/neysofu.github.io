@@ -1,0 +1,21 @@
+languages:
+  - item: Rust
+  - item: C
+  - item: WebAssembly
+  - item: Elixir
+  - item: Scala
+  - item: Golang
+
+blockchain:
+  - item: ERC20
+  - item: ERC721
+  - item: Solidity
+  - item: NEAR
+  - item: Algorand's TEAL
+
+tools:
+  - item: GNU/Linux
+  - item: bash, fish, Make
+  - item: CI/CD
+  - item: Terraform, Ansible
+  - item: AWS
