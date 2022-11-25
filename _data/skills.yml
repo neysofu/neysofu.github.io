@@ -6,16 +6,14 @@ languages:
   - item: Scala
   - item: Golang
 
-blockchain:
-  - item: ERC20
-  - item: ERC721
-  - item: Solidity
-  - item: NEAR
-  - item: Algorand's TEAL
+team:
+  - item: Async communication
+  - item: Clear, concise writing
+  - item: Empathy
 
-tools:
+tooling:
   - item: GNU/Linux
-  - item: bash, fish, Make
-  - item: CI/CD
+  - item: Docker, K8s
+  - item: GitHub Actions
   - item: Terraform, Ansible
-  - item: AWS
+  - item: AWS, GCP basics
